@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function MemeLayout({ children }: { children: React.ReactNode }) {
     return <div>
-        <Navbar title="Random Meme"/>
+        <Navbar title="Random Dogs"/>
         <main className="max-w-5xl m-auto flex flex-col h-[90vh] justify-center  items-center">
             {children}
         </main>
