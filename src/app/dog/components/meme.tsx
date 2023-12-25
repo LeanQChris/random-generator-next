@@ -4,7 +4,7 @@ import Dog from "../data/entity";
 import ReloadButton from "@/components/buttons/reload";
 import { useQuery } from "@tanstack/react-query";
 import { fetchRandomDog } from "../data/api";
-import { Loader } from "@/app/(home)/components/loader";
+import { Loader } from "@/app/jokes/components/loader";
 
 export default function DogCard({ dog }: { dog: Dog }) {
 
