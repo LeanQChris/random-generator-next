@@ -7,7 +7,7 @@ import { fetchRandomAnimeQuote } from "../data/api";
 
 export default function Quote({ animeQuote }: { animeQuote: AnimeQuote }) {
 
-  const { data, isLoading, isFetching, refetch } = useQuery({ queryKey: ["memes"], queryFn: fetchRandomAnimeQuote, initialData: animeQuote, enabled: false })
+  const { data, isLoading, isFetching, refetch } = useQuery({ queryKey: ["memes"], queryFn: fetchRandomAnimeQuote, initialData: animeQuote,})
 
   if (isLoading || isFetching) {
     return <Loader />

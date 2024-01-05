@@ -5,7 +5,7 @@ import React from 'react'
 export default function HomePage() {
     return (
         <div>
-            <div className='flex min-h-screen items-center justify-center min-h-screen px-24'>
+            <div className='flex min-h-screen items-center justify-center min-h-screen px-5 lg:px-24'>
                 <div>
                     <div className="group relative -ml-4 flex scroll-mt-40 items-center pl-4">
                         <a className="absolute z-50 -ml-10 mb-2.5 rounded-md border border-blue-gray-50 bg-blue-gray-50/50 p-1 opacity-0 hover:opacity-100 group-hover:opacity-100">
@@ -16,7 +16,7 @@ export default function HomePage() {
                         <h2 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug !mb-2 text-primary">Random Generators</h2>
                     </div>
                     <p className="block antialiased font-sans text-base font-light leading-relaxed text-inherit !mb-4 !font-normal !text-gray-600">Generate random contents of the following categories</p>
-                    <div className="mt-8 grid grid-cols-2 gap-6 md:grid-cols-4" id="frameworks-integration">
+                    <div className="mt-8 grid grid-cols-2 gap-6 " id="frameworks-integration">
                         <Link href="/dog" className="grid w-full min-w-[7rem] transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 bg-white px-3 py-2 transition-all hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25" >
                             <span className="my-6 grid h-24 w-24 place-items-center">
                                 <svg
