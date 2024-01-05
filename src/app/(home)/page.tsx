@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -332,6 +333,11 @@ export default function HomePage() {
                                         fill="#aaadbf"
                                     />
                                 </svg>
+                            </span>
+                        </Link>
+                        <Link href="/anime" className="grid w-full min-w-[7rem] transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 bg-white px-3 py-2 transition-all hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25" >
+                            <span className="my-6 grid h-24 w-24 place-items-center">
+                              <Image src="https://animechan.xyz/_next/image?url=%2Flogo.png&w=256&q=75" width={200} height={200} alt="animechan"/>
                             </span>
                         </Link>
                     </div>
